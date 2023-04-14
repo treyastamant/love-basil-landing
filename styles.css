@@ -64,6 +64,7 @@ body {
     height: auto;
     width: 550px;
     margin-bottom: auto;
+    border-radius: 10px;
  }
 
 h1 {
@@ -71,13 +72,13 @@ h1 {
 }
 
 button {
-    padding: 8px 16px;
+    padding: 8px 32px;
     border: 0px;
-    border-radius: 10px;
-    color: #fff;
-    background-color: #ac8b92;
+    border-radius: 20px;
+    color: #659043;
+    background-color: #fff;
     font-size: 16px;
-    box-shadow: 0 2px 6px 0 rgba(0,0,0,0.24), 0 7px 10px 0 rgba(0,0,0,0.19);
+    /* box-shadow: 0 2px 6px 0 rgba(0,0,0,0.24), 0 7px 10px 0 rgba(0,0,0,0.19); */
 }
 
 button:hover {
