@@ -78,9 +78,8 @@ button {
     color: #659043;
     background-color: #fff;
     font-size: 16px;
-    /* box-shadow: 0 2px 6px 0 rgba(0,0,0,0.24), 0 7px 10px 0 rgba(0,0,0,0.19); */
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.24), 0 7px 10px 0 rgba(0,0,0,0.19);
 }
-
 button:hover {
-    background-color: #7e676f;
-  }
+    box-shadow: 0 2px 10px 0 rgba(0,0,0,0.24), 5px 12px 15px 0 rgba(0,0,0,0.19);
+}
