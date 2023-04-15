@@ -61,7 +61,7 @@ body {
     margin-top: 50px;
 }
 
- img {
+.hero-content img {
     flex:1;
     height: auto;
     width: 450px;
@@ -108,9 +108,10 @@ button:hover {
 
 .cards {
     display: flex;
-    gap: 16px;
+    gap: 20px;
     text-align: center;
     margin-top: 20px;
+    width: 1000px;
 }
 
 .cards p {
@@ -123,10 +124,15 @@ h2 {
     margin: 0px;
 }
 
+.multicard-block img {
+    width: 220px;
+    border-radius: 10px;
+}
+
 /* quote-block section */
 
 .quote-block {
-    background-color: #e5e7eb;
+    background-color: #ebefe7;
     padding: 80px 20px;
     display: flex column;
 }
@@ -150,9 +156,9 @@ blockquote {
 /* Call to action section */
 
 .inner-cta {
-    background-color: #659043;
+    background-color: #8f7173;
     width: 1000px;
-    margin: 80px auto;
+    margin: 120px auto;
     padding: 40px 100px;
     border-radius: 10px;
     display: flex;
@@ -171,7 +177,15 @@ blockquote {
     align-self: center;
     margin-top: 0px;
     border: 1px solid #fff;
-    background-color: #659043;
+    background-color: #8f7173;
     color: #fff;
     box-shadow: none;
+}
+
+footer {
+background-color: #659043;
+padding: 30px;
+text-align: center;
+color: #fff;
+font-weight: 300;
 }
