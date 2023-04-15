@@ -2,7 +2,7 @@ body {
     margin: 0px auto;
     font-family: "roboto";
     font-weight: 100;
-    background: #659043;
+    /* background: #659043; */
 }
 
 /* Nav bar */
@@ -102,8 +102,8 @@ button:hover {
     width: 1000px;
     justify-content: center;
     margin: auto;
-    padding-bottom: 80px;
-    
+    padding: 40px 0px;
+    background-color: #fff;
 }
 
 .cards {
@@ -115,4 +115,9 @@ button:hover {
 
 .cards p {
     margin-top: 20px;
+}
+
+h2 {
+    font-size: 31px;
+    font-family: "Chilanka";
 }
