@@ -58,13 +58,13 @@ body {
 }
 
 .hero-text {
-    margin-top: 20px;
+    margin-top: 50px;
 }
 
  img {
     flex:1;
     height: auto;
-    width: 550px;
+    width: 450px;
     margin-bottom: auto;
     border-radius: 10px;
  }
@@ -72,7 +72,7 @@ body {
 h1 {
     margin: 0px;
     padding: 0px;
-    font-size: 32px;
+    font-size: 36px;
     font-family: "Chilanka";
 }
 p {
@@ -118,7 +118,7 @@ button:hover {
 }
 
 h2 {
-    font-size: 31px;
+    font-size: 32px;
     font-family: "Chilanka";
     margin: 0px;
 }
@@ -145,4 +145,33 @@ blockquote {
     font-size: 24px;
     font-weight: 500;
     text-align: right;
+}
+
+/* Call to action section */
+
+.inner-cta {
+    background-color: #659043;
+    width: 1000px;
+    margin: 80px auto;
+    padding: 40px 100px;
+    border-radius: 10px;
+    display: flex;
+}
+.cta-block .text {
+    color: #fff;
+}
+
+.cta-block h3 {
+    margin: 0px;
+    font-size: 26px;
+    font-family: "Chilanka";
+}
+.cta-block button {
+    margin-left: auto;
+    align-self: center;
+    margin-top: 0px;
+    border: 1px solid #fff;
+    background-color: #659043;
+    color: #fff;
+    box-shadow: none;
 }
