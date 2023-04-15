@@ -93,7 +93,7 @@ button:hover {
     box-shadow: 0 2px 10px 0 rgba(0,0,0,0.24), 5px 12px 15px 0 rgba(0,0,0,0.19);
 }
 
-/* Multi-card section  */
+/* Multicard-block section  */
 
 .multicard-block {
     display: flex;
@@ -102,7 +102,7 @@ button:hover {
     width: 1000px;
     justify-content: center;
     margin: auto;
-    padding: 40px 0px;
+    padding: 80px 0px;
     background-color: #fff;
 }
 
@@ -120,4 +120,29 @@ button:hover {
 h2 {
     font-size: 31px;
     font-family: "Chilanka";
+    margin: 0px;
+}
+
+/* quote-block section */
+
+.quote-block {
+    background-color: #e5e7eb;
+    padding: 80px 20px;
+    display: flex column;
+}
+
+blockquote, .quote-block p {
+    width: 1000px;
+    margin: auto;
+}
+
+blockquote {
+    font-size: 29px;
+    font-style: italic;
+}
+.quote-block p {
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    text-align: right;
 }
